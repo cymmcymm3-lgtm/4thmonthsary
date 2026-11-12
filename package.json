@@ -1,0 +1,11 @@
+{
+  "name": "a-little-more-us",
+  "private": true,
+  "version": "6.0.0",
+  "description": "A fourth-monthsary scrapbook for Stephay",
+  "scripts": {
+    "dev": "node serve.cjs",
+    "start": "node serve.cjs",
+    "check": "node --check dist/content.js && node --check dist/gestures.js && node --check dist/book-motion.js && node --check dist/app.js && node --check dist/book.js && node --check dist/photo-stack.js && node --check dist/media.js && node --check dist/lyric-reel.js && node --check dist/experience.js && node --check dist/flower-rain.js && node --check serve.cjs"
+  }
+}

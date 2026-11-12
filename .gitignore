@@ -1,0 +1,8 @@
+.sites-local/
+.openai/
+node_modules/
+*.tar.gz
+*.log
+qa/
+dist/assets/our-song.mp4
+dist/assets/our-song-trimmed.m4a

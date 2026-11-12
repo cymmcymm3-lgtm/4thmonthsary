@@ -1,0 +1,13 @@
+ADD YOUR VIDEOS
+
+Copy a browser-compatible MP4 or WebM here (for example memory-01.mp4).
+In dist/content.js, set the first chapter's video property to:
+  video: 'assets/videos/memory-01.mp4'
+
+Repeat for other chapters, or leave a chapter empty for its placeholder.
+Optional poster: set the chapter's poster property to an image path.
+Keep the files inside dist when sharing/deploying the gift.
+
+For a temporary local preview, run npm run dev and open:
+http://127.0.0.1:4173/?edit=1#memories
+Choose a video below the book. This preview is not saved or uploaded.
